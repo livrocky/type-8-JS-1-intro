@@ -2,34 +2,27 @@
 //     4 + 4;
 //      console.log(2 + 2 * 5);
 
-// kintamasis naujesnis visada naudosim
-// pasakom kompiuteriui issaugoti vieta atmintyje kur mes noresime saugoti ir naudoti reiksmes
-const x = 5; // Number
-let y = 5;
-let w = "50"; // String
-let isMain = true; //Boolean 1
-let isYellow = false; //Boolean 0
-if (isMain === true) {
-  console.log("it is main");
-}
-let user = {}; //object
-let myArray = []; //object/array
-let isBlue = null;
-let notHere = undefined;
-let blur;
-blur = "sveiki";
-console.log(blur);
-// yra senesnio tipo globalus kintamasis
-var z = 25;
+//=assignment operatorius. ima kas yra desine ir priskiria tam kas yra kaireje
+let x = 30;
+let y = "50";
+//string tipo duomens pavertimas i skaiciu
 
-//  x=50; (ismeta klaidas nes x yra constanta)
-// y=100;
+y = Number(y);
+
+let suma = x + y;
+let atimtis = x - y;
+
+//string tipo duomenu sujungimas i viena stringa
+let word1 = "As mokausi ";
+let word2 = "javascript";
+let sakinys = word1 + word2;
+console.log(sakinys);
 
 console.log("x= " + x + " y = " + y);
 console.log("Sudetis");
-console.log(x + y);
+console.log(suma);
 console.log("Atimtis");
-console.log(x - y);
+console.log(atimtis);
 console.log("Daugyba");
 console.log(x * y);
 console.log("Dalyba");
