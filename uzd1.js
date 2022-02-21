@@ -26,7 +26,7 @@ console.log(paraEl);
 paraEl.textContent = sakinys + sak2 + sak3;
 // paraEl.innerHTML = sakinys + sak2 + sak3;
 
-y5 = 50;
+// y5 = 50;
 
 //camel case
 const patsMegstamiausiasManoSkaiciusYra = 777;
